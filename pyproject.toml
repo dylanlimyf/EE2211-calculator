@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ee2211-calc"
+version = "0.1.0"
+description = "Offline exam toolkit for EE2211-style ML/stat questions"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
